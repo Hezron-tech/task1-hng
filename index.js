@@ -2,6 +2,7 @@ const express =require ('express')
 const app =express()
 
 const routes = require('./routes/route')
+const cors = require('cors');
 
 
 
